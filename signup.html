@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <div class="heads-up">
+          <a href="index.html">HOMEPAGE</a>
+          <a href="login.html">LOGIN</a>
+          <a href="signup.html">SIGN UP</a>
+          <a href="district.html">DISTRICT</a>
+        </div>
+    </header>
+    <!-- nav bar ends -->
+    <br>
+    <br>
+    
+    <div class="mymargin">
+        <div class="container">
+            <h4>Please fill the following details to sign up</h4>
+            <form onsubmit="return validation()">
+
+              <div class="form-group ">
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" class="form-control-md-4" id="email" placeholder="Enter email">
+                <br>
+                <span id="emailerr" class="text-danger font-weight-bold"></span>
+              </div>
+
+              <div class="form-group ">
+                <label for="emailid">Confirm Email:</label>
+                <br>
+                <input type="text" class="form-control-md-4" id="emailid" placeholder="Enter email">
+                <span id="emailiderr" class="text-danger font-weight-bold"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="mob">Mobile Number:</label>
+                <br>
+                <input type="number" class="form-control-md-4" id="mob" placeholder="Enter Mobile No">
+                <span id="moberr" class="text-danger font-weight-bold"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <br>
+                <input type="password" class="form-control-md-4" id="exampleInputPassword1" placeholder="Enter Password">
+                <br>
+                <span id="exampleInputPassword1err" class="text-danger font-weight-bold"></span>
+                <br>
+                <div class="progress col-md-2">
+                  <div class="progress-bar "></div>
+
+                 <br>
+                <br>
+                
+              </div>
+              <br>
+              <br>
+                                        
+              <button type="submit" class="btn btn-primary " >Sign in</button>
+            </form>
+          </div>
+        </div>
+       
+        <script src="signup.js"></script>
+    
+</body>
+</html>

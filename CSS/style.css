@@ -1,0 +1,151 @@
+/* nav bar */
+.heads-up{
+    float: right;
+    padding-right: 50px;
+
+}
+header{
+
+border: 55px solid black;
+margin: 0px;
+
+}
+.heads-up a{
+    padding-left: 30px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: large;
+}
+.heads-up a:hover{
+    color:lightskyblue;
+    text-decoration: none;
+
+    
+}
+/* nav bar ends */
+
+/* background image */
+
+body{
+    background-image: url(image/back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+/* background image ends */
+
+/* intro */
+.heads-down{
+    
+    padding: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ivory;
+    opacity: 0.8;
+    margin: 100px;
+     
+    
+}
+.heads-down p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    line-height: 30px;
+}
+.heads-down h1{
+    text-align: center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heads-down h3{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+/* intro ends */
+
+/* login + signup */
+.mymargin{
+    
+    background-color: ivory;
+    opacity: 0.7;
+    margin: 100px;
+    padding: 50px;
+    height: 25%;
+    width: 40%;
+}
+/* login + signup end */
+
+/* district page starts here */
+div.gallery {
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 250px;
+
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.city{
+    margin: 150px;
+  
+  }
+/* district page ends here */
+
+/* sub section for district page */
+
+.town{
+    margin: 100px;
+    opacity: 0.8;
+    background-color: ivory;
+    padding: 50px;
+}
+.town img{
+    width: 70%;
+    height: auto;
+    margin: 50px;
+    border: 2px solid black;
+  }
+
+.town p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+    
+}
+.town h1{
+    font-size: 40px;
+    text-align: center;
+}
+.town h3{
+padding-top: 20px;
+font-size: 30px;
+}
+/* sub section for district ends */
+
+/* styling password strength bar */
+
+#exampleInputPassword1 {
+    margin-bottom: 5px;
+  }
+
+
+
+
+

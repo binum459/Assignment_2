@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <div class="heads-up">
+          <a href="index.html">HOMEPAGE</a>
+          <a href="login.html">LOGIN</a>
+          <a href="signup.html">SIGN UP</a>
+          <a href="district.html">DISTRICT</a>
+        </div>
+    </header>
+    <br>
+    <br>
+    <!-- nav bar ends -->
+    <div class="mymargin">
+      <div class="container">
+          <h3 >LOGIN</h3>
+          <form onsubmit="return valid()">
+            <div class="form-group ">
+              <label for="email">Email:</label>
+              <br>
+              <input type="email" class="form-control-md-4" id="email" placeholder="Enter email" required >
+              <br>
+              
+            </div>
+            
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <br>
+              <input  type="password"class="form-control-md-4" id="pwd" placeholder="Enter password" required>
+              <br>
+              <br>
+              <div id="pwderror" ></div>
+              <br>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    <script src="login.js"></script>
+</body>
+</html>
